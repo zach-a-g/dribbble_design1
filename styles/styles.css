@@ -1,0 +1,41 @@
+html{
+    font-size: 20px;
+    font-family: 'IM Fell French Canon SC', serif;
+    align-content: center;
+    justify-content: center;
+    min-width: 300px;
+    background-image: url(../images/cinderella.jpg);
+    background-attachment: fixed;
+    background-blend-mode: normal;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+
+body {
+    width: 800px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    padding: 10px 10px 10px 10px ;
+    border: 5px solid black;
+
+  }
+
+  @media screen and (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: rgb(34, 32, 32);
+    }
+  }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    body {
+       background-color: rgb(34, 31, 31);
+       color: rgb(255, 255, 255);
+       justify-content: flex;
+       font-size: 1.5rem;
+    }
+  }
